@@ -1,0 +1,169 @@
+(footprint "LET1370HS-05"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3c4d1ca9-36d5-415e-ad35-b9be166cf996")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "LET1370HS-05"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0223fcb9-ae93-4bb2-a91b-60920b2a5de3")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.075)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bf2d3ef-963f-4043-b65b-b18456085bef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a48dfca-5138-4ce1-b4a0-dd35f139007c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4efa02f8-7683-4597-80b9-6470d4048a3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.9 6.5)
+		(end -6.9 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "73523cf9-c6ab-46e3-88ff-04afd10b97ff")
+	)
+	(fp_line
+		(start -6.4 -6.5)
+		(end -6.9 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4d0ddd4f-f5ef-4498-a79b-ec223eb6309d")
+	)
+	(fp_line
+		(start -6.4 -6.5)
+		(end 6.9 -6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b13a4511-a55e-4d4a-8594-c5b810ea02fc")
+	)
+	(fp_line
+		(start 6.9 -6.5)
+		(end 6.9 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a0fd5f23-e966-439c-87c4-4cc52e6bb708")
+	)
+	(fp_line
+		(start 6.9 6.5)
+		(end -6.9 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af47d511-1a95-4753-a497-9e661e69f1d7")
+	)
+	(fp_text user "+"
+		(at 5.4 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2c54a309-5323-49a2-8e39-28d6a2ed74e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at -5.4 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a51b3231-e408-4adf-84ab-6d2ab256522a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 5.4 0)
+		(size 4 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b0c815d7-19b2-4988-969d-0b3eb1dbc8ee")
+	)
+	(pad "2" smd rect
+		(at -5.4 0)
+		(size 4 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "df4c7479-6351-46f4-837c-ea499706aac5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_Murata_PKMCS0909E.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.5 1.4 1.5)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

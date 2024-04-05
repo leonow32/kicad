@@ -1,0 +1,151 @@
+(footprint "TouchRing_9.5_6.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8e3c3772-fa32-4abd-b9a6-c0f7a6a5da8d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TouchRing_9.5_6.0mm"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c9335b02-7f99-4afe-8b53-bf961dd24eb9")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bf5d807-c48f-412a-90e4-6800878f450c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8345d6fd-2c38-4fd1-857c-345d95315d8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ddf3b71-b075-49a8-affc-6a6258aa1602")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3.875 0)
+		(stroke
+			(width 1.75)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Cu")
+		(uuid "0c64cf1a-5796-4d7f-87e1-1863f6c37d6d")
+	)
+	(fp_arc
+		(start -3.334198 1.925)
+		(mid -3.849996 -0.005526)
+		(end -3.328659 -1.934563)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "9b5c1ce9-84b3-4b53-8c36-876ab77e2e72")
+	)
+	(fp_arc
+		(start -1.925 -3.334198)
+		(mid 0.005526 -3.849996)
+		(end 1.934563 -3.328659)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "4d3e7c4f-ef36-4221-8538-ef88f4ffec53")
+	)
+	(fp_arc
+		(start 1.925 3.334198)
+		(mid -0.005526 3.849996)
+		(end -1.934563 3.328659)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "7984957b-e27b-438b-b228-9a212af37e1a")
+	)
+	(fp_arc
+		(start 3.334198 -1.925)
+		(mid 3.849996 0.005526)
+		(end 3.328659 1.934563)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "34045198-2e3d-4ff9-868e-55d280a8f110")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2e4e5548-0c84-4d3e-a301-c17e153937b8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.875 0)
+		(stroke
+			(width 1.9)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Mask")
+		(uuid "6021a438-1040-4f94-a046-96fead245342")
+	)
+	(pad "1" smd circle
+		(at 0 -4)
+		(size 1 1)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "8e64900e-7843-4c23-b2d3-46f792ebef1a")
+	)
+)

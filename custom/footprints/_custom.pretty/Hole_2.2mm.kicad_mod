@@ -1,0 +1,17 @@
+(footprint "Hole_2.2mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 632C2B4D)
+  (property "Sheetfile" "ControlBox.kicad_sch")
+  (property "Sheetname" "")
+  (attr exclude_from_pos_files)
+  (fp_text reference "HOLE1" (at 0 -1.75) (layer "F.SilkS") hide
+    (effects (font (size 0.6 0.6) (thickness 0.1)))
+    (tstamp 905121fa-8ee3-4167-8ddc-09d7ba070a17)
+  )
+  (fp_text value "HOLE 3.2/6.0" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 0.4 0.4) (thickness 0.075)))
+    (tstamp ec32ee10-9c02-4a00-b48f-885b6ddf878a)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers F&B.Cu *.Mask)
+    (solder_mask_margin 0.1) (clearance 0.2) (tstamp 2013ef49-ae9d-48ff-8afb-5bcf0f976a6c))
+)

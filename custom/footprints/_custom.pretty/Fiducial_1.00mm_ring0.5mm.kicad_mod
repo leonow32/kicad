@@ -1,0 +1,75 @@
+(footprint "Fiducial_1.00mm_ring0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "FID"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "e89efd30-a437-43df-89ef-2b1a703cd043")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "_FIDUCIAL"
+		(at 0 -2 0)
+		(layer "F.Adhes")
+		(hide yes)
+		(uuid "c5c39df0-c991-45c9-98b7-1040794e405e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4f47277-28d4-47d0-929c-452ff4f2eba1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25085b57-60ce-4406-b2c9-1785b7b7223d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed83c6a2-9e0a-42c0-b38a-33ddc3223008")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_bom)
+	(pad "" smd circle
+		(at 0 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.5)
+		(clearance 0.75)
+		(zone_connect 0)
+		(uuid "4df9bf3b-9e4e-4010-9833-f8871e39b28a")
+	)
+)

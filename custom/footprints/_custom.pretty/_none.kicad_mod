@@ -1,0 +1,11 @@
+(footprint "_none" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 0 0)))
+    (tstamp 111a20e4-7fbe-4d21-9ad5-4bc7337e9e75)
+  )
+  (fp_text value "_none" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 0 0)))
+    (tstamp 01b49f43-4de1-4b6b-96df-41839bd7d8fe)
+  )
+)
