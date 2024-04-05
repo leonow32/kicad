@@ -1,0 +1,13 @@
+# Ignore
+*
+!*/
+bin/
+datasheet/
+lib/
+projects/
+share/
+ssl/
+
+# Allow
+!.gitignore
+!/custom/**
