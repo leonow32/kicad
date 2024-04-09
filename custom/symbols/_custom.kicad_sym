@@ -110835,7 +110835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:Display_Aliexpress_4.0inch"
+		(property "Footprint" "_custom:Display_PE24064WRT"
 			(at 0 -27.94 0)
 			(effects
 				(font
@@ -110853,7 +110853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Display: LCD; graphical; 240x64; FSTN Negative; black; 120.0x44.82mm"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -110862,7 +110862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "PowerTip PE24064WRT-004I06Q"
 			(at 0 -30.48 0)
 			(effects
 				(font
@@ -110871,7 +110871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://pl.aliexpress.com/item/1005006222962227.html?spm=a2g0o.order_list.order_list_main.11.d63e1c245qtTfT&gatewayAdapt=glo2pol"
+		(property "Link" ""
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -111155,6 +111155,122 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PE24064_Backlight"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DISP"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PE24064_Backlight"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "_custom:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Headers & Wire Housings PicoBlade1.25 SMT RA PKG 2P"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "Molex 53261-0271"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.pl/ProductDetail/Molex/53261-0271?qs=%252B72YyncTwW%252B8%252BBjraxGf3A%3D%3D"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PE24064_Backlight_1_1"
+			(rectangle
+				(start -7.62 3.81)
+				(end 7.62 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -11.43 1.27 0)
+				(length 3.81)
+				(name "Anode"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -1.27 0)
+				(length 3.81)
+				(name "Cathode"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
