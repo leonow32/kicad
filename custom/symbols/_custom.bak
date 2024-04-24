@@ -110835,7 +110835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:HFW15R-2STE1H1LF"
+		(property "Footprint" "_custom:FFC3B11-20-T"
 			(at 0 -39.37 0)
 			(effects
 				(font
@@ -110853,7 +110853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FFC & FPC Connectors HFW15R-2STE1H1LF-HFWR"
+		(property "Description" "Connector: FFC/FPC; horizontal; PIN: 20; ZIF; SMT; 50V; 0.4A; tinned"
 			(at 0 -36.83 0)
 			(effects
 				(font
@@ -110862,7 +110862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "Amphenol HFW15R-2STE1H1LF"
+		(property "Part" "GCT FFC3B11-20-T"
 			(at 0 -41.91 0)
 			(effects
 				(font
@@ -110871,7 +110871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.pl/ProductDetail/Amphenol-FCI/HFW15R-2STE1H1LF?qs=u16ybLDytRYfy5msolHNuA%3D%3D"
+		(property "Link" "https://www.tme.eu/pl/details/ffc3b11-20-t/zlacza-ffc-fpc-raster-1-00mm/global-connector-technology-gct/"
 			(at 0 -34.29 0)
 			(effects
 				(font
