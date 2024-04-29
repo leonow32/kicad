@@ -99,6 +99,17 @@
 		(layer "F.SilkS")
 		(uuid "d5179d2e-40f4-4c5e-9226-cafef9d35039")
 	)
+	(fp_rect
+		(start -55 14.5)
+		(end 55 -17.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "9c361b00-1a7a-40b4-b621-0981261e14bb")
+	)
 	(pad "A" thru_hole oval
 		(at 30 23.7 180)
 		(size 4.5 2)
