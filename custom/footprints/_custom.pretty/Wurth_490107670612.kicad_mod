@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Wurth_490107670612"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -88,14 +88,14 @@
 		(uuid "d0f9c2b8-d9d3-4b6d-8543-64d9c4eab840")
 	)
 	(pad "" np_thru_hole circle
-		(at -4.505 -1.27)
+		(at -4.405 -1.27)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "f0de5eda-bdc8-4bd1-9675-60bdffd0c536")
 	)
 	(pad "" np_thru_hole circle
-		(at 4.505 1.27)
+		(at 4.405 1.27)
 		(size 2.6 2.6)
 		(drill 2.6)
 		(layers "F&B.Cu" "*.Mask")
