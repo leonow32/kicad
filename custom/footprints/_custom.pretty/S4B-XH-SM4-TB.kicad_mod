@@ -1,0 +1,132 @@
+(footprint "S4B-XH-SM4-TB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 8.6 0.6 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "870b6501-ea2f-42aa-a47d-35279e2e8d47")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "S4B-XH-SM4-TB"
+		(at 0 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "381b9f69-7f39-4126-9e8b-9c9f9d391649")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.075)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49e9e61c-340a-4fe3-8597-9e505ed10314")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dd602f9-1473-42d4-8393-bce8f50e27d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1cf5d17-eb03-4874-b0d6-f6f2b1974874")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -7.6 -1)
+		(end 7.6 6.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9d787a4e-f2be-4841-b34c-b50f3a584cee")
+	)
+	(pad "" smd rect
+		(at -6.95 4.75 180)
+		(size 1.8 3.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "62a3fc26-f9c0-41b2-b32c-e71dac4587b0")
+	)
+	(pad "" smd rect
+		(at 6.95 4.75 180)
+		(size 1.8 3.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d1b95d08-2627-4c48-b187-da8e05115c60")
+	)
+	(pad "1" smd rect
+		(at -3.75 -2.25)
+		(size 1.3 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b37fd3f5-75a0-4799-9ee4-33e17f49c42b")
+	)
+	(pad "2" smd rect
+		(at -1.25 -2.25)
+		(size 1.3 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "280e4e16-bffa-4baa-b590-cf13d3b2cf7c")
+	)
+	(pad "3" smd rect
+		(at 1.25 -2.25)
+		(size 1.3 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "751ef4cc-9b1e-45c8-a375-da931ad5c590")
+	)
+	(pad "4" smd rect
+		(at 3.75 -2.25)
+		(size 1.3 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e98995e9-283b-421e-a63d-55a3e3c1fac8")
+	)
+	(model "${CUSTOM_3DMODE_DIR}/Connectors/S4B-XH-SM4-TB-LF--SN---3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 -5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
