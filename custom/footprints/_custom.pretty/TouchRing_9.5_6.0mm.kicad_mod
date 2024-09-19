@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,10 +62,10 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
-	(attr smd)
 	(fp_circle
 		(center 0 0)
 		(end 3.875 0)
@@ -147,5 +149,16 @@
 		(layers "F.Cu")
 		(thermal_bridge_angle 90)
 		(uuid "8e64900e-7843-4c23-b2d3-46f792ebef1a")
+	)
+	(model "${CUSTOM_3DMODE_DIR}/spring_AC038-500-6000-MW-1000-C-N-IN.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.65 0.3 0.65)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

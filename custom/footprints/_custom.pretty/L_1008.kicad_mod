@@ -1,0 +1,135 @@
+(footprint "L_1008"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator")
+	(tags "inductor")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "4b86ee1b-88ad-4f08-a24e-a43fe27de69a")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "L_1008"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b2d40dce-487c-4829-9d22-4a75baf6bc2f")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.075)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e038a6a1-2702-4415-a456-31b44b268c20")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.001)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68ff8406-06ca-44ca-9f06-da02877ca668")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "448574d2-44cd-475a-b05c-7ec07bf4b714")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b5f9d3f-ae81-424a-9346-35a674596042")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7dc9278b-7d44-49ab-9589-ebd891fdbafc")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "499d02bd-f340-44a2-9f8f-5725de0d5870")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d58a906-a443-42ac-bc00-6328d8f59cd3")
+	)
+	(pad "1" smd rect
+		(at -1.075 0)
+		(size 1.25 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ddcdc8b6-79f8-4439-8d5e-e2c0d0ba6191")
+	)
+	(pad "2" smd rect
+		(at 1.075 0)
+		(size 1.25 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5077ac03-91d4-49b6-a25c-978b4c24f338")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1008_2520Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

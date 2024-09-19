@@ -1,4 +1,4 @@
-(footprint "Display_4.3inch"
+(footprint "Display_4.3inch_top"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Display_4.3inch"
+	(property "Value" "Display_4.3inch_top"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -67,34 +67,35 @@
 			)
 		)
 	)
-	(fp_line
-		(start -34.2 -12.4)
-		(end -34.2 19.6)
+	(fp_rect
+		(start -52.75 33.6)
+		(end 52.75 -33.6)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
-		(uuid "930bca2c-4148-4247-a64d-f30aef47087b")
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9505a3d8-8a39-4154-90ca-1ca47f90d1b0")
 	)
 	(fp_line
-		(start -34.2 30.5)
-		(end -34.2 19.6)
+		(start -34.3 30.5)
+		(end -34.3 -12.4)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "Dwgs.User")
 		(uuid "a5140190-e332-4d6f-9cd0-2026b360ecec")
 	)
 	(fp_line
 		(start -30.7 30.5)
-		(end -34.2 30.5)
+		(end -34.3 30.5)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "Dwgs.User")
 		(uuid "d463bb19-12e7-4c00-9fe8-d06eb6689a70")
 	)
 	(fp_line
@@ -104,7 +105,7 @@
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "Dwgs.User")
 		(uuid "544305e6-35b2-4c1d-8682-d820c5e11a1c")
 	)
 	(fp_line
@@ -114,37 +115,47 @@
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "Dwgs.User")
 		(uuid "fcc32d94-51ca-4e00-a056-069a20c162ba")
 	)
 	(fp_line
-		(start -13.7 -12.4)
-		(end -34.2 -12.4)
+		(start -24.05 -12.4)
+		(end -24.05 -9.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "733ea9d2-3fd1-4b40-9868-e1eb1a8898b3")
+	)
+	(fp_line
+		(start -13.8 -12.4)
+		(end -34.3 -12.4)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "Dwgs.User")
 		(uuid "1e40bd00-37ac-4da6-b031-66d403d8e0bf")
 	)
 	(fp_line
-		(start -13.7 -12.4)
-		(end -13.7 18.6)
+		(start -13.75 -12.4)
+		(end -13.75 18.6)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "Dwgs.User")
 		(uuid "0703e70b-2feb-4873-a910-7bfbdb057ebd")
 	)
 	(fp_line
-		(start -12.7 19.6)
+		(start -12.75 19.6)
 		(end 14.3 19.6)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "Dwgs.User")
 		(uuid "dced2f03-1afb-4361-9df1-6744a51db40d")
 	)
 	(fp_line
@@ -154,7 +165,7 @@
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "Dwgs.User")
 		(uuid "2ab14727-9878-497c-9118-c058166765c1")
 	)
 	(fp_line
@@ -164,7 +175,7 @@
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "Dwgs.User")
 		(uuid "b8f242fa-134c-4a65-bc6a-133214266780")
 	)
 	(fp_line
@@ -174,30 +185,8 @@
 			(width 0.25)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "Dwgs.User")
 		(uuid "dd78a8c1-2f69-409b-862a-716dbcb992b8")
-	)
-	(fp_arc
-		(start -12.7 19.6)
-		(mid -13.407107 19.307107)
-		(end -13.7 18.6)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "322d6820-37c0-48a6-8864-4a3542b29a10")
-	)
-	(fp_rect
-		(start -52.7 33.6)
-		(end 52.7 -33.6)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "9505a3d8-8a39-4154-90ca-1ca47f90d1b0")
 	)
 	(fp_rect
 		(start -47.5 27)
@@ -210,9 +199,20 @@
 		(layer "Dwgs.User")
 		(uuid "2c30f793-2d46-4bfd-ad3e-b1b3b8d87816")
 	)
+	(fp_arc
+		(start -12.75 19.6)
+		(mid -13.457107 19.307107)
+		(end -13.75 18.6)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "322d6820-37c0-48a6-8864-4a3542b29a10")
+	)
 	(model "${CUSTOM_3DMODE_DIR}/Displays/ER-TFT043-3.stp"
 		(offset
-			(xyz 0 0 4)
+			(xyz 0 0 8)
 		)
 		(scale
 			(xyz 1 1 1)
