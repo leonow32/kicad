@@ -585,7 +585,7 @@
 	(pad "41" thru_hole circle
 		(at -2.9 1.8)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -594,7 +594,7 @@
 	(pad "41" thru_hole circle
 		(at -2.9 3.2)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -603,7 +603,7 @@
 	(pad "41" thru_hole circle
 		(at -2.2 1.1)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -612,7 +612,7 @@
 	(pad "41" thru_hole circle
 		(at -2.2 2.5)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -621,7 +621,7 @@
 	(pad "41" thru_hole circle
 		(at -2.2 3.9)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -630,7 +630,7 @@
 	(pad "41" thru_hole circle
 		(at -1.5 1.8)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -645,7 +645,7 @@
 	(pad "41" thru_hole circle
 		(at -1.5 3.2)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -654,7 +654,7 @@
 	(pad "41" thru_hole circle
 		(at -0.8 1.1)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -663,7 +663,7 @@
 	(pad "41" thru_hole circle
 		(at -0.8 2.5)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -672,7 +672,7 @@
 	(pad "41" thru_hole circle
 		(at -0.8 3.9)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -681,7 +681,7 @@
 	(pad "41" thru_hole circle
 		(at -0.1 1.8)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -690,7 +690,7 @@
 	(pad "41" thru_hole circle
 		(at -0.1 3.2)
 		(size 0.6 0.6)
-		(drill 0.5)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
