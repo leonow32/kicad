@@ -1,4 +1,4 @@
-(footprint "Lumberg_3521_04_K00"
+(footprint "Lumberg_3517_04_K01"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Lumberg_3521_04_K00"
+	(property "Value" "Lumberg_3517_04_K01"
 		(at -6.25 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -80,7 +80,7 @@
 		(uuid "32fa8e01-8917-4a21-8564-1f88131b0ecc")
 	)
 	(fp_line
-		(start -5 6.2)
+		(start -5 2.05)
 		(end -5 -6.2)
 		(stroke
 			(width 0.1)
@@ -88,6 +88,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "0e2182dc-167d-49c7-86a1-80322dc30c63")
+	)
+	(fp_line
+		(start -5 2.95)
+		(end -5 6.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a94c59a-fea0-46ba-ab66-93f5a4f2ceff")
 	)
 	(fp_line
 		(start -5 6.2)
@@ -130,16 +140,6 @@
 		(uuid "00bfc866-5895-4da7-81c8-598517a09e68")
 	)
 	(fp_line
-		(start 0 6.2)
-		(end 0 -6.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "ba444c96-ea93-4e23-81e1-00b49e3340f7")
-	)
-	(fp_line
 		(start 0 -6.2)
 		(end 6.1 -6.2)
 		(stroke
@@ -148,6 +148,46 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "ab34a343-9403-47b9-81f4-be8454cda9d2")
+	)
+	(fp_line
+		(start 0 2.2)
+		(end -5 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d3a69742-1b3e-4055-8e52-4e45cd2e5c6b")
+	)
+	(fp_line
+		(start 0 2.2)
+		(end 0 -6.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ba444c96-ea93-4e23-81e1-00b49e3340f7")
+	)
+	(fp_line
+		(start 0 2.8)
+		(end -5 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a7169faa-c648-4e71-8fb6-923586a65660")
+	)
+	(fp_line
+		(start 0 2.8)
+		(end 0 6.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "072ad900-9a47-4ba6-b9f0-f153d4d39d4a")
 	)
 	(fp_line
 		(start 0 6.2)
@@ -168,6 +208,28 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "433e70b0-f8da-4a50-8cff-f3d79a5cb8cd")
+	)
+	(fp_arc
+		(start -5.3 2.5)
+		(mid -5.212132 2.287868)
+		(end -5 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "21ea8d4f-09f2-4b1a-a4cc-90d9631ebefc")
+	)
+	(fp_arc
+		(start -5 2.8)
+		(mid -5.212132 2.712132)
+		(end -5.3 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3da0fe64-5edd-4ead-9a0d-9b615eb44579")
 	)
 	(pad "" np_thru_hole circle
 		(at -2.85 -5.35)
@@ -231,7 +293,19 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "bf44f6cf-05c0-414f-a602-dd69dc1af780")
 	)
+	(model "${CUSTOM_3DMODE_DIR}/Connectors/lumberg_3517_04.stp"
+		(offset
+			(xyz 142.3 -37.4 92.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
 	(model "${CUSTOM_3DMODE_DIR}/Connectors/lumberg_3521_04.stp"
+		(hide yes)
 		(offset
 			(xyz 142.3 -37.4 92.7)
 		)

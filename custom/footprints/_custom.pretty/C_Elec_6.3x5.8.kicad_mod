@@ -1,0 +1,166 @@
+(footprint "C_Elec_6.3x5.8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD capacitor, aluminum electrolytic nonpolar, 6.3x5.8mm")
+	(tags "capacitor electrolyic nonpolar")
+	(property "Reference" "REF**"
+		(at 0 -4.35 0)
+		(layer "F.SilkS")
+		(uuid "537849f5-03ab-4c88-b438-d4c63ddbf065")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "C_Elec_6.3x5.8"
+		(at 0 4.35 0)
+		(layer "F.Fab")
+		(uuid "7998f81b-d345-4961-9fce-ec10060ebec2")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.075)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d9cca68-6520-4bda-bbab-b67ce9d6dbe3")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.01)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8ab4482-e9a2-478f-bba6-7b6484a524ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e87f633-c83e-42f3-bb6c-018411a6192d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -2.3)
+		(end -3.3 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41aefed0-1ee9-45d8-8ab0-be5cadc03f64")
+	)
+	(fp_line
+		(start -3.3 -2.3)
+		(end -2.3 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "145b3684-15ff-4429-8290-61c1b8f31582")
+	)
+	(fp_line
+		(start -3.3 2.3)
+		(end -2.3 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b983a68b-d91f-432c-ae23-da8fbf8e0c19")
+	)
+	(fp_line
+		(start -2.3 -3.3)
+		(end 3.3 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9148bbc-5de9-4cb4-a165-bffd8843b97d")
+	)
+	(fp_line
+		(start -2.3 3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05d97295-ebf5-4929-afbd-8d2c74ecfc7f")
+	)
+	(fp_line
+		(start 3.3 -3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "598976a2-da85-45b3-9600-cc0fbc56a72a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.15 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d520422b-9b01-4e04-812d-a2bd188aafe3")
+	)
+	(pad "1" smd rect
+		(at -2.5375 0)
+		(size 3.325 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b4049d11-6d1f-44c6-b37a-72d1e7f50610")
+	)
+	(pad "2" smd rect
+		(at 2.5375 0)
+		(size 3.325 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9b2e8121-19fa-439d-aead-84571911cb3d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Elec_6.3x5.8.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
