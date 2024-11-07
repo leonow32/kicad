@@ -1,4 +1,4 @@
-(footprint "USB-C6"
+(footprint "USB-C6_PinInPaste"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "USB-C6"
+	(property "Value" "USB-C6_PinInPaste"
 		(at 0 1 0)
 		(layer "F.Fab")
 		(uuid "0c11becc-8df5-44d1-8830-62846598f79b")
@@ -105,6 +105,38 @@
 		(layer "F.SilkS")
 		(uuid "3a3da639-9c5d-46da-8802-292e357b394c")
 	)
+	(pad "" smd roundrect
+		(at -5.11 -2.6)
+		(size 2.3 1.7)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "efb66b94-da65-4eeb-9b5a-3a3cc0ec5514")
+	)
+	(pad "" smd roundrect
+		(at -5.11 -2.6)
+		(size 2.5 1.9)
+		(layers "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "f71391fc-a184-4ca3-b50d-d423956d0104")
+	)
+	(pad "" smd roundrect
+		(at -5.1 -6.61)
+		(size 2.3 1.7)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "7d176e19-da24-422e-84ef-8ff1174ea111")
+	)
+	(pad "" smd roundrect
+		(at -5.1 -6.61)
+		(size 2.5 1.9)
+		(layers "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "fec31e8e-dec4-4cd7-bee1-a9523ab985e6")
+	)
 	(pad "" thru_hole oval
 		(at -4.32 -6.6)
 		(size 1.1 1.7)
@@ -140,6 +172,38 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
 		(uuid "560e220a-cc21-429c-a7c9-3b209040cda6")
+	)
+	(pad "" smd roundrect
+		(at 5.1 -6.6)
+		(size 2.3 1.7)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "2c2e1ba1-78a6-470c-aa59-66da2bdacd70")
+	)
+	(pad "" smd roundrect
+		(at 5.1 -6.6)
+		(size 2.5 1.9)
+		(layers "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "362974f1-6fff-4428-a9e5-9c0fa22f67d8")
+	)
+	(pad "" smd roundrect
+		(at 5.11 -2.62)
+		(size 2.3 1.7)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "72053626-cfe3-497f-aa30-1fde2c1cb05b")
+	)
+	(pad "" smd roundrect
+		(at 5.11 -2.62)
+		(size 2.5 1.9)
+		(layers "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "406c38b1-3fdb-49fb-b6cd-bdf6db41bce7")
 	)
 	(pad "A5" smd roundrect
 		(at 0.5 -6.7 180)
@@ -194,6 +258,122 @@
 		(solder_mask_margin 0.05)
 		(solder_paste_margin_ratio -0.05)
 		(uuid "9f8344db-08e8-475f-a38d-458c144864ff")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "F.SilkS")
+		(uuid "310125ac-4d48-4ad7-af6c-5353c7bd14dc")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5 -5.6) (xy -4.1 -5.6) (xy -3.8 -5.7) (xy -3.6 -6) (xy -3.6 -7.2) (xy -3.8 -7.5) (xy -4.1 -7.6)
+				(xy -6 -7.6) (xy -6.3 -7.5) (xy -6.4 -7.2) (xy -6.4 -6) (xy -6.3 -5.7) (xy -6 -5.6) (xy -5.3 -5.6)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "F.SilkS")
+		(uuid "61d7468f-58c8-4716-b50a-b3e8f1a68bd7")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5 -1.6) (xy -4.1 -1.6) (xy -3.8 -1.7) (xy -3.6 -2) (xy -3.6 -3.2) (xy -3.8 -3.5) (xy -4.1 -3.6)
+				(xy -6 -3.6) (xy -6.3 -3.5) (xy -6.4 -3.2) (xy -6.4 -2) (xy -6.3 -1.7) (xy -6 -1.6) (xy -5.3 -1.6)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "F.SilkS")
+		(uuid "3b606539-d9b9-4962-b5e6-6e6e45fb21dd")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 5 -7.6) (xy 4.1 -7.6) (xy 3.8 -7.5) (xy 3.6 -7.2) (xy 3.6 -6) (xy 3.8 -5.7) (xy 4.1 -5.6) (xy 6 -5.6)
+				(xy 6.3 -5.7) (xy 6.4 -6) (xy 6.4 -7.2) (xy 6.3 -7.5) (xy 6 -7.6) (xy 5.3 -7.6)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "F.SilkS")
+		(uuid "90b69c44-c621-4e7d-8fb1-e777eba4d11b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 5 -3.6) (xy 4.1 -3.6) (xy 3.8 -3.5) (xy 3.6 -3.2) (xy 3.6 -2) (xy 3.8 -1.7) (xy 4.1 -1.6) (xy 6 -1.6)
+				(xy 6.3 -1.7) (xy 6.4 -2) (xy 6.4 -3.2) (xy 6.3 -3.5) (xy 6 -3.6) (xy 5.3 -3.6)
+			)
+		)
 	)
 	(model "${CUSTOM_3DMODE_DIR}/Connectors/USB4125-GF-A-0190.stp"
 		(offset
